@@ -1,0 +1,8 @@
+import platform
+import socket
+import uuid
+
+print("📱 Info Fetcher")
+print("OS:", platform.system(), platform.release())
+print("Device ID:", uuid.getnode())
+print("Local IP:", socket.gethostbyname(socket.gethostname()))
